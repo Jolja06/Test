@@ -1,20 +1,27 @@
+
 @font-face {
-	font-family: MyriadPro;
-	src: url(../fonts/MyriadProRegular.otf);
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/MyriadPro-Regular/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf')  format('truetype'), url('../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf')  format('truetype'), url('../fonts/MyriadPro-Regular/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
   font-family: 'KaushanScript';
   src: url('../fonts/KaushanScript-Regular/KaushanScript-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/KaushanScript-Regular/KaushanScript-Regular.otf')  format('opentype'),
-	     url('../fonts/KaushanScript-Regular/KaushanScript-Regular.woff') format('woff'), url('../fonts/KaushanScript-Regular/KaushanScript-Regular.ttf')  format('truetype'), url(../'./fonts/KaushanScript-Regular/KaushanScript-Regular.svg#KaushanScript-Regular') format('svg');
+	     url('../fonts/KaushanScript-Regular/KaushanScript-Regular.woff') format('woff'), url('../fonts/KaushanScript-Regular/KaushanScript-Regular.ttf')  format('truetype'), url('../fonts/KaushanScript-Regular/KaushanScript-Regular.svg#KaushanScript-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-	font-family: BlackJack;
-	src: url(../fonts/black_jack.ttf);
+  font-family: 'BlackJack';
+  src: url('../fonts/BlackJackRegular/BlackJackRegular.eot?#iefix') format('embedded-opentype'),  url('../fonts/BlackJackRegular/BlackJackRegular.woff') format('woff'), url('../fonts/BlackJackRegular/BlackJackRegular.ttf')  format('truetype'), url('../fonts/BlackJackRegular/BlackJackRegular.svg#BlackJackRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
 body{
-	font-family: MyriadPro;
+	font-family: 'MyriadPro';
 	font-size: 16px;
 }
 .wrap{
@@ -46,17 +53,16 @@ header{
 }
 h1{
 	color: #fff;
-	font-family: BlackJack;
+	font-family: 'BlackJack';
 	font-size: 70px;
-	padding-bottom: 40px;
-}
+	}
 h3{
 	color: #fff;
 	font-size: 35px;
 }
 .heading{
 	float: right;
-	margin: 60px 160px 0 0;
+	margin: 0px 160px 0 0;
 	text-align: right;
 }
 button{
@@ -95,16 +101,15 @@ section.ipad{
 	background-position: right bottom;
 }
 .content-left{
-	padding: 160px 0 0 160px;
+	padding: 90px 0 0 160px;
 	width: 530px;
 }
 h2{
 	color: #545454;
 	font-size: 40px;
-	padding-bottom: 45px;
-}
+	}
 .ipad .content-left p, .apple .content-right p{
-	color: #000;
+	color: #7e7e7e;
 	font-size: 16px;
 	padding-bottom: 20px;
 	line-height: 25px;
@@ -119,6 +124,7 @@ blockquote{
 	border-left: 5px solid #4eacdd;
 	padding-left: 20px;
 	width: 470px;
+	margin-left: 0px;
 }
 .button-hello{
 	color: #14af8f;
@@ -139,6 +145,7 @@ section.apple{
 .button-dribbble{
 	color: #ea4c89;
 	border: 2px solid #ea4c89;
+	margin-top: 30px;
 }
 .apple .content-right p.grey {
 	color: #474e5d;
