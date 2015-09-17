@@ -1,29 +1,33 @@
 @font-face {
 	font-family: MyriadPro;
-	src: url(fonts/MyriadProRegular.otf);
+	src: url(../fonts/MyriadProRegular.otf);
 }
 @font-face {
-	font-family: KaushanScript;
-	src: url(fonts/KaushanScript-Regular.otf);
+  font-family: 'KaushanScript';
+  src: url('../fonts/KaushanScript-Regular/KaushanScript-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/KaushanScript-Regular/KaushanScript-Regular.otf')  format('opentype'),
+	     url('../fonts/KaushanScript-Regular/KaushanScript-Regular.woff') format('woff'), url('../fonts/KaushanScript-Regular/KaushanScript-Regular.ttf')  format('truetype'), url(../'./fonts/KaushanScript-Regular/KaushanScript-Regular.svg#KaushanScript-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
 	font-family: BlackJack;
-	src: url(fonts/black_jack.ttf);
+	src: url(../fonts/black_jack.ttf);
 }
 body{
 	font-family: MyriadPro;
+	font-size: 16px;
 }
 .wrap{
 	width: 1260px;
 	margin: 0 auto;
 }
 header{
-	background-image: url(images/test_02.jpg);
+	background-image: url(../images/test_02.jpg);
 	height: 650px;
 	position: relative;
 }
 .logo{
-	font-family:KaushanScript;
+	font-family: 'KaushanScript';
 	color: #0da9e5;
 	font-size: 50px;
 	width: 100px;
@@ -75,7 +79,7 @@ button img{
 	border: 2px solid #fff;
 }
 .iphone{
-	background-image: url(images/test_03.png);
+	background-image: url(../images/test_03.png);
 	background-repeat: no-repeat;
 	width: 228px;
 	height: 268px;
@@ -86,7 +90,7 @@ button img{
 section.ipad{
 	background-color: #f4f4f4;
 	height: 650px;
-	background-image: url(images/test_10_10.jpg);
+	background-image: url(../images/test_10_10.jpg);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 }
@@ -123,7 +127,7 @@ blockquote{
 section.apple{
 	height: 650px;
 	background-color: #fff;
-	background-image: url(images/test_03_03.jpg);
+	background-image: url(../images/test_03_03.jpg);
 	background-repeat: no-repeat;
 	background-position: left bottom;
 }
@@ -140,7 +144,7 @@ section.apple{
 	color: #474e5d;
 }
 footer{
-	background-image: url(images/test_17.jpg);
+	background-image: url(../images/test_17.jpg);
 	height: 330px;
 	text-align: center;
 }
